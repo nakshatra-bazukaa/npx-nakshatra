@@ -1,0 +1,27 @@
+{
+  "name": "nakshatra",
+  "version": "1.0.0",
+  "description": "A personal card for Nakshatra Gupta",
+  "main": "card.js",
+  "bin": {
+    "nakshatra": "./card.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nakshatra-bazukaa/npx-nakshatra.git"
+  },
+  "keywords": [],
+  "author": "Nakshatra Gupta",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^4.1.0",
+    "chalk": "^3.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/nakshatra-bazukaa/npx-nakshatra/issues"
+  },
+  "homepage": "https://github.com/nakshatra-bazukaa/npx-nakshatra#readme"
+}
