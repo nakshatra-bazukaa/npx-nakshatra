@@ -10,27 +10,33 @@ const options = {
 }
 
 const data = {
-    name: chalk.white('               Nakshatra Gupta'),
-    handle: chalk.white('nakshatra-bazukaa'),
-    work: chalk.white('Android and Node Developer, Blockchain Enthausiast'),
-    twitter: chalk.gray('https://twitter.com/') + chalk.cyan('bazukaaNaksh'),
+    name: chalk.green('                Nakshatra Gupta'),
+    work: chalk.white('Android and Node developer, Blockchain Enthausiast'),
     github: chalk.gray('https://github.com/') + chalk.green('nakshatra-bazukaa'),
     linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('nakshatra-gupta-0199b9181'),
+    instagram: chalk.grey('https://www.instagram.com/') + chalk.magenta('nakshatra_bazukaa'),
+    twitter: chalk.gray('https://twitter.com/') + chalk.cyan('bazukaaNaksh'),
     npx: chalk.red('npx') + ' ' + chalk.white('nakshatra'),
     labelWork: chalk.white.bold('      Work:'),
-    labelTwitter: chalk.white.bold('   Twitter:'),
     labelGitHub: chalk.white.bold('    GitHub:'),
     labelLinkedIn: chalk.white.bold('  LinkedIn:'),
+    labelInstagram: chalk.white.bold(' Instagram:'),
+    labelTwitter: chalk.white.bold('   Twitter:'),
     labelCard: chalk.white.bold('      Card:'),
+    labelIntroLine1: chalk.green.bold('A techie guy with a keen sense of development,'),
+    labelIntroLine2: chalk.green.bold('connect with me and have a chat.')
 }
 
 const newline = '\n'
-const heading = `${data.name} ${data.handle}`
+const heading = `${data.name}`
 const working = `${data.labelWork}  ${data.work}`
-const twittering = `${data.labelTwitter}  ${data.twitter}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
+const instagraming = `${data.labelInstagram}  ${data.instagram}`
+const twittering = `${data.labelTwitter}  ${data.twitter}`
 const carding = `${data.labelCard}  ${data.npx}`
+const introLine1 = `${data.labelIntroLine1}`
+const introLine2 = `${data.labelIntroLine2}`
 
 const output =
   heading +
@@ -38,13 +44,22 @@ const output =
   newline +
   working +
   newline +
-  twittering +
   newline +
   githubing +
   newline +
   linkedining +
   newline +
+  instagraming +
   newline +
-  carding
+  twittering +
+  newline +
+  newline +
+  carding +
+  newline +
+  newline +
+  newline +
+  introLine1 +
+  newline + 
+  introLine2
 
 console.log(chalk.green(boxen(output, options)))
