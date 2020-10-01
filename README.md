@@ -11,7 +11,7 @@ npx nakshatra
 [![npm version](https://badge.fury.io/js/simongolms.svg)](https://badge.fury.io/js/simongolms)
 
 <p align="center">
-  <img src="Assets/NPX card.png" alt="npx simongolms demo"/>
+  <img src="Assets/NPX card.png"/>
 </p>
 
 
